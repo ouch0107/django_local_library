@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'q7%36i_d63oxquc@**jsc-4wupz*6y
 # DEBUG = True
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['fast-journey-70987.herokuapp.com']
 
 
 # Application definition
